@@ -32,3 +32,4 @@ class i2c_device:
 # Read a block of data
    def read_block_data(self, cmd):
       return self.bus.read_block_data(self.addr, cmd)
+   print(self)
